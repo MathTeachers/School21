@@ -1,0 +1,225 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  color: 000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+/**Основа**/
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  border-style: cover;
+}
+
+header a {
+  color: black;
+}
+
+/**Логотип и меню**/
+
+.logo {
+  margin-right: 250px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 5%;
+}
+
+.menu li {
+  margin-right: 83px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+/**Ольга Васильевна**/
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.block_one {
+  padding-top: 40px;
+  display: flex;
+}
+
+.photo {
+  width: 375px;
+  height: 436px;
+}
+
+.box {
+  background-color: rgba(243, 243, 243, 0.7);
+  box-shadow: 2px 8px 10px rgba(51, 51, 51, 0.192);
+  display: flex;
+  justify-content: center;
+  width: 745px;
+  height: 307px;
+  margin-left: 50px;
+  margin-top: 53px;
+  border-radius: 40px;
+}
+
+.text {
+  text-align: center;
+  padding-top: 20px;
+  width: 527px;
+  height: 238px;
+}
+
+.poragrof_one p {
+  width: 490px;
+  height: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 8px;
+  letter-spacing: 5%;
+}
+
+.text_one {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 8px;
+  letter-spacing: 5%;
+}
+
+.text_two {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 8px;
+  letter-spacing: 5%;
+}
+
+.text_three {
+  font-size: 18px;
+  width: 520px;
+  right: 122px;
+  font-weight: 300;
+  margin: 9px;
+  letter-spacing: 5%;
+}
+
+.vk {
+  position: absolute;
+  padding-left: 400px;
+  padding-top: 330px;
+}
+
+/**Екатерина Анатольевна**/
+
+.block_two {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box_two {
+  background-color: rgba(243, 243, 243, 0.7);
+  box-shadow: 2px 8px 10px rgba(51, 51, 51, 0.192);
+  display: flex;
+  justify-content: center;
+  width: 745px;
+  height: 307px;
+  border-radius: 40px;
+  margin-top: 53px;
+  margin-right: 50px;
+}
+
+.text_1 {
+  text-align: center;
+  padding-top: 20px;
+  width: 627px;
+  height: 228px;
+}
+
+.poragrof_one2 p {
+  width: 617px;
+  height: 37px;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 8px;
+  letter-spacing: 5%;
+}
+
+.text_one2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 8px;
+  letter-spacing: 5%;
+}
+
+.text_two2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 8px;
+  letter-spacing: 5%;
+}
+
+.text_three2 {
+  font-size: 18px;
+  width: 600px;
+  right: 90px;
+  font-weight: 300;
+  margin: 9px;
+  letter-spacing: 5%;
+}
+
+.vk_two {
+  position: absolute;
+  padding-right: 400px;
+  padding-top: 330px;
+  width: 50px;
+  height: 46px;
+}
+
+/**footer**/
+
+.footer {
+  margin: 10px;
+}
+.end {
+  display: flex;
+  justify-content: center;
+}
+
+.text-end {
+  display: flex;
+  justify-content: center;
+  width: 787px;
+  height: 25px;
+}

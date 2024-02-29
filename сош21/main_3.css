@@ -1,0 +1,181 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  color: 000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+/**Основа**/
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  border-style: cover;
+}
+
+header a {
+  color: black;
+}
+
+/**Логотип и меню**/
+
+.logo {
+  margin-right: 250px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 5%;
+}
+
+.menu li {
+  margin-right: 83px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+/**Section**/
+
+.top_content h1 {
+  padding-top: 94px;
+  width: 450px;
+  height: 45px;
+  padding-left: 370px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 82px;
+}
+
+.card_one {
+  width: 370px;
+  height: 258px;
+  background-color: #fff;
+  border-style: solid;
+  margin-right: 30px;
+  border-radius: 5px;
+  border-color: #bcbcbc;
+  border-width: 2px;
+}
+
+.content {
+  margin-top: 29px;
+}
+
+.text {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+a.glo {
+  color: #000000;
+  padding: 10px 20px;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #000000 50%,
+    #000000
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.25s ease-in;
+  font: 400 18px tahoma;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+a.glo:hover {
+  background-position: 0 0;
+  color: #fff;
+}
+
+.card_two {
+  width: 370px;
+  height: 258px;
+  background-color: #fff;
+  border-style: solid;
+  margin-right: 30px;
+  border-radius: 5px;
+  border-color: #bcbcbc;
+  border-width: 2px;
+}
+
+.card_three {
+  width: 370px;
+  height: 258px;
+  background-color: #fff;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #bcbcbc;
+  border-width: 2px;
+}
+
+/**cards2**/
+
+.cards2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 82px;
+}
+
+/**footer**/
+
+.footer {
+  margin: 10px;
+  margin-top: 90px;
+}
+.end {
+  display: flex;
+  justify-content: center;
+}
+
+.text-end {
+  display: flex;
+  justify-content: center;
+  width: 787px;
+  height: 25px;
+}
